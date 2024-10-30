@@ -50,9 +50,8 @@ header {
 }
 
 header img {
-    max-width: 00px;
     /* Control image size */
-    height: auto;
+    max-width: 10%;
 }
 
 .header-content {
