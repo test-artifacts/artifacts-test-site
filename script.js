@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     testPlanLink.addEventListener("click", function (event) {
         event.preventDefault();
        
-        let pdfContent = getPDFContentForClient('My project', 'frontend', 'chrome')
+        let pdfContent = getPDFContentForClient('My project', 'frontend', 'web')
         pdfModelClient(pdfContent, 'test-plan')
     });
 });
