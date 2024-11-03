@@ -69,6 +69,25 @@ header img {
     }
 }
 
+/* Style for Buy Me a Coffee link */
+.coffee-link {
+    position: absolute;
+    right: 35px;
+    transform: translateY(-50%);
+    padding: 20px 25px;
+    background-color: #FFDD00;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.1rem; /* Slightly larger text */
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.coffee-link:hover {
+    background-color: #FFC107;
+}
+
 .header-content {
     text-align: left;
     flex-grow: 1;
