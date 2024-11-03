@@ -51,7 +51,22 @@ header {
 
 header img {
     /* Control image size */
-    max-width: 10%;
+    /*  max-width: 10%; */
+    width: 16%;
+    height: auto; /* Maintains aspect ratio */
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+    header img {
+        width: 25%;
+    }
+}
+
+@media (max-width: 480px) {
+    header img {
+        width: 30%;
+    }
 }
 
 .header-content {
@@ -94,6 +109,7 @@ section {
 
 footer p {
     margin: 10px 0;
+    text-align: center;
 }
 
 /* Button styles */
