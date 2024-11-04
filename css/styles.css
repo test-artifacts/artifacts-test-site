@@ -69,6 +69,11 @@ header img {
     }
 }
 
+body img {
+    max-width: 100%;  /* Allow images to scale down to fit their container */
+    height: auto;     /* Maintain the aspect ratio */
+}
+
 /* Style for Buy Me a Coffee link */
 .coffee-link {
     transform: translateY(-50%);
@@ -124,9 +129,14 @@ section {
     border-radius: 8px;
 }
 
-footer p {
-    margin: 10px 0;
+footer {
     text-align: center;
+    background-color: #1c324a;
+    color: #fff;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 /* Button styles */
@@ -144,6 +154,33 @@ footer p {
 .btn:hover {
     background-color: #00509e;
     cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Merges borders for a cleaner look */
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+td {
+    font-size: 1.5rem; /* Larger symbols for better visibility */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    th, td {
+        font-size: 1rem; /* Decrease font size for smaller screens */
+    }
 }
 
 /* Media query for smaller screens */

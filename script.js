@@ -8,6 +8,6 @@ document.addEventListener("DOMContentLoaded", function () {
         event.preventDefault();
        
         let pdfContent = getPDFContentForClient('My project', 'frontend', 'web')
-        pdfModelClient(pdfContent, 'test-plan')
+        pdfModelClient(pdfContent, 'test-plan-artifact')
     });
 });
