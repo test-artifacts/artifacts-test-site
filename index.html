@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <script src="bundle/bundle.js"></script>
     <!-- Header Section -->
     <header>
         <img src="images/test-artifacts.jpeg" alt="Test Artifacts Logo">
@@ -19,13 +18,36 @@
                 <a href="#cli">Command Line Tool</a>
                 <a href="#github">GitHub Repos</a>
                 <a href="#test-plan-example" id="test-plan-link">See Test Plan Example</a></br>
-                <a href="https://buymeacoffee.com/testartifacts" target="_blank" class="coffee-link">☕ Buy Us a Coffee!</a>
+                <a href="https://buymeacoffee.com/testartifacts" target="_blank" class="coffee-link">☕ Buy Me a Coffee!</a>
             </nav>
         </div>
     </header>
 
     <!-- Main Content -->
     <main>
+        <section id="about">
+            <h2>How can test artifacts contribute to achieving higher quality maturity in software development?</h2>
+            <p>Test Artifacts will provide you the best test artifact you need for your project, by your input we will be generating the artifact which you can change afterwards, here is the following list of provided test artifacts already available:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Test Plan</th>
+                        <th>Test Strategy</th>
+                        <th>Traceability Matrix</th>
+                        <th>Performance Strategy</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>&#9989;</td> <!-- Check mark (✅) -->
+                        <td>&#10060;</td> <!-- Cross mark (❌) -->
+                        <td>&#10060;</td> <!-- Cross mark (❌) -->
+                        <td >&#10060;</td> <!-- Cross mark (❌) -->
+                    </tr>
+                </tbody>
+            </table></br>
+        </section>
+
         <!-- Chrome Extension Section -->
         <section id="extension">
             <h2>Download Our Chrome Extension</h2>
@@ -36,10 +58,11 @@
         <!-- Command Line Tool Section -->
         <section id="cli">
             <h2>Use Our Command Line Tool</h2>
-            <p>Install our library to run powerful testing commands right from your terminal. Ideal for developers who prefer CLI workflows.</p>
+            <p>Install our Test Artifacts commandline, being faster to generate the artifacts. Ideal for engineers who prefer CLI workflows.</p>
             <p>Install via npm:</p>
-            <pre><code>npm install test-artifacts</code></pre></br>
-            <pre><code>npm run commandline</code></pre></br>
+            <pre><code>npm i test-artifacts -g</code></pre></br>
+            <p>Now in the terminal you can run:</p>
+            <pre><code>test-artifacts</code></pre></br>
             <img src="images/commandline-example.png" alt="Test"></br>
             <p>A PDF will be generated in the end containing you Test Plan:</p>
             <img src="images/test-plan-example.png" alt="Test"></br>
@@ -57,7 +80,9 @@
     <!-- Footer Section -->
     <footer>
         <p>&copy; 2024 Test Artefacts Co. All rights reserved.</p>
-        <p><a href="https://www.testartifacts.com/privacy-policy" style="color: #0b1e8e;">Privacy Policy</a> | <a href="https://www.testartifacts.com/terms-of-service" style="color: #0b1e8e;">Terms of Service</a></p>
+        <p><a href="https://www.testartifacts.com/privacy-policy">Privacy Policy |</a>
+        <a href="https://www.testartifacts.com/terms-of-service">Terms of Service</a></p>
     </footer>
+    <script src="bundle/bundle.js"></script>
 </body>
 </html>
